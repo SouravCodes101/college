@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a project named Online Notice Board made my Sourav Choudhury 
+            which pings notifications for every ents posted by the teachers to the registered users/students">
+
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <title>Online notice board - sourav</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="resources/favicons/site.webmanifest">
+    <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="resources/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="row college">
+                <img src="resources/img/logo.png" alt="College Logo" class="logo college__logo">
+                <img src="resources/img/logo-black.png" alt="College Black Logo" class="logo-black college__logo">
+                <ul class="main-nav college__nav js--main-nav">
+                    <li><a href="#features">College</a></li>
+                    <li><a href="#departments">Departments</a></li>
+                    <li><a href="#steps">How it works</a></li>
+                    <li><a href="/split">Login</a></li>
+                    <li><a href="about/about.html" target="blank">About me</a></li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon">
+                    <i class="ion-navicon-round"></i>
+                </a>
+            </div>
+        </nav>
+        <div class="hero-text-box">
+            <h1>Hey, <br> know all about <br>what happened this week!</h1>
+            <a class="btn btn-full js--scroll-to-plans" href="#">Check Notice</a>
+            <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
+        </div>
+    </header>
+
+    <section class="section-college js--section-features" id="features">
+        <div class="row">
+            <h2>This is &mdash; Our College</h2>
+            <p class="long-copy">
+                Shillong College was inaugurated on 15th of August, 1956, and began with few students at Jail Road Boys
+                High School. Shri Sudhindra Chandra Datta, a Lecturer in the Department of Mathematics in St. Anthony’s
+                College , became the founder Principal.
+            </p>
+        </div>
+
+        <div class="row js--wp-1">
+            <div class="col span-1-of-4 box">
+                <i class="ion-trophy icon-big"></i>
+                <h3>PRIZES/AWARDS</h3>
+                <p>
+                    Shillong College is happy to announce a number of academic awards for the meritorious students to
+                    create more enthusiasm among them to pursue higher education with zeal.
+                </p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="ion-flag icon-big"></i>
+                <h3>ACHIEVEMENT</h3>
+                <p>
+                    Shillong College fraternity has earned several laurels in academic as well as co-curricular and
+                    extra- curricular areas over the years.
+                </p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="ion-ribbon-b icon-big"></i>
+                <h3>RED RIBBON CLUB</h3>
+                <p>
+                    The Red Ribbon Club has been established in Shillong College in the year 2006 under National AIDS
+                    Control Programme (NACP).
+                </p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="ion-heart icon-big"></i>
+                <h3>YOUTH RED CROSS</h3>
+                <p>
+                    Shillong College set up the Youth Red Cross Society on May 16th, 2012. Its primary aim is to develop
+                    among the students the spirit of humanitarian and social service through active and direct
+                    involvement in Red Cross activities.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-images">
+        <ul class="images-showcase">
+            <li>
+                <figure class="college-photo">
+                    <img src="resources/img/1.jpg" alt="image-1">
+                </figure>
+            </li>
+            <li>
+                <figure class="college-photo">
+                    <img src="resources/img/2.jpg" alt="image-2">
+                </figure>
+            </li>
+            <li>
+                <figure class="college-photo">
+                    <img src="resources/img/3.jpg" alt="image-3">
+                </figure>
+            </li>
+            <li>
+                <figure class="college-photo">
+                    <img src="resources/img/4.jpg" alt="image-4">
+                </figure>
+            </li>
+        </ul>
+        <ul class="images-showcase">
+            <li>
+                <figure class="college-photo">
+                    <img src="resources/img/5.jpg" alt="image-5">
+                </figure>
+            </li>
+            <li>
+                <figure class="college-photo">
+                    <img src="resources/img/6.jpg" alt="image-6">
+                </figure>
+            </li>
+            <li>
+                <figure class="college-photo">
+                    <img src="resources/img/7.jpg" alt="image-7">
+                </figure>
+            </li>
+            <li>
+                <figure class="college-photo">
+                    <img src="resources/img/8.jpg" alt="image-8">
+                </figure>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section-steps" id="steps">
+        <div class="row">
+            <h2>How it works &mdash; as simple as 1, 2, 3</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-2 steps-box">
+                <img src="resources/img/iphone.png" alt="iphone mockup image" class="app-screen js--wp-2">
+            </div>
+            <div class="col span-1-of-2 steps-box">
+                <div class="works-step">
+                    <div>1</div>
+                    <p>Check what our college is all about</p>
+                </div>
+                <div class="works-step">
+                    <div>2</div>
+                    <p>Checkout the app or signup in the website to see the notices</p>
+                </div>
+                <div class="works-step">
+                    <div>3</div>
+                    <p>Get email notifications for every new events/news</p>
+                </div>
+                <a href="#" class="btn-app "><img src="resources/img/download-app.svg" alt="app store logo "></a>
+                <a href="#" class="btn-app "><img src="resources/img/download-app-android.png"
+                        alt="play  store logo "></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-departments" id="departments">
+        <div class="row">
+            <h2>Departments</h2>
+        </div>
+        <div class="row js--wp-3">
+            <div class="col span-1-of-3">
+                <div class="dept-box">
+                    <div>
+                        <img src="resources/img/art.png" alt="art image">
+                        <h3>ARTS/EDUCATION</h3>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <i class="ion-ios-checkmark-empty icon-small"></i>Education
+                            </li>
+                            <li>
+                                <i class="ion-ios-checkmark-empty icon-small"></i>Economics
+                            </li>
+                            <li>
+                                <i class="ion-ios-checkmark-empty icon-small"></i>History
+                            </li>
+                            <li>
+                                <i class="ion-ios-checkmark-empty icon-small"></i>Political Science
+                            </li>
+                            <li>
+                                <i class="ion-ios-checkmark-empty icon-small"></i>Philosophy
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-ghost">Check It Out</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="dept-box">
+                    <div>
+                        <img src="resources/img/science.png" alt="science image">
+                        <h3>SCIENCE</h3>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <i class="ion-ios-checkmark-empty icon-small"></i>Botany
+                            </li>
+                            <li>
+                                <i class="ion-ios-checkmark-empty icon-small"></i>Chemistry
+                            </li>
+                            <li>
+                                <i class="ion-ios-checkmark-empty icon-small"></i>Zoology
+                            </li>
+                            <li>
+                                <i class="ion-ios-checkmark-empty icon-small"></i>Physics
+                            </li>
+                            <li>
+                                <i class="ion-ios-checkmark-empty icon-small"></i>Maths
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-ghost">Check It Out</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="dept-box">
+                    <div>
+                        <img src="resources/img/management.png" alt="professional image">
+                        <h3>PROFESSIONAL</h3>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <i class="ion-ios-checkmark-empty icon-small"></i>Computer Science
+                            </li>
+                            <li>
+                                <i class="ion-ios-checkmark-empty icon-small"></i>Business Administration
+                            </li>
+                            <li>
+                                <i class="ion-ios-checkmark-empty icon-small"></i>Commerce
+                            </li>
+                            <li>
+                                <i class="ion-ios-checkmark-empty icon-small"></i>Microbiology
+                            </li>
+                            <li>
+                                <i> &nbsp;</i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-ghost">Check It Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-form js--section-plans  js--wp-4" id="form">
+        <div class="row">
+            <h2>Wanna Checkout the college notice?</h2>
+        </div>
+        <div class="row">
+            <form method="POST" action="/" class="register-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Full Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="username" id="email" placeholder="Your email" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="roll">NEHU Roll No</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="roll" id="roll" placeholder="Your NEHU Roll No" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="password" name="password" id="password" placeholder="Your Password" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="news">Wanna get notified?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="checkbox" name="news" id="news" checked> Yes, please
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Register!">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">College</a></li>
+                    <li><a href="#">Departments</a></li>
+                    <li><a href="#">signup</a></li>
+                    <li><a href="#">iOS App</a></li>
+                    <li><a href="#">Android App</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="#">
+                            <i class="ion-social-facebook facebook"></i>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <i class="ion-social-twitter twitter"></i>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <i class="ion-social-google google"></i>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <i class="ion-social-instagram instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <p>
+                Copyright &copy; 2020 by Sourav. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/.npmignore"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/.gitattributes"></script>
+    <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+
+</body>
+
+</html>

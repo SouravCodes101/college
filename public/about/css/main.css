@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #fff;
+  background: #000;
+  /* fallback for old browsers */
+}
+
+h1 {
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  color: #000;
+  /* line-height: 2; */
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #7fff00;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.top-container h2 {
+  color: #000;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #851d41;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-width: 5px;
+  border-color: grey;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #7fff00;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.photo-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.game-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 120px;
+  bottom: 150px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 180px;
+  top: 40px;
+}
+
+.bottom-container {
+  background-color: #7fff00;
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.bottom-container p {
+  color: #851d41;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.footer-link {
+  color: #000;
+  text-decoration: none;
+  margin: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.btn {
+  background: #7fff00;
+  background-image: -webkit-linear-gradient(top, #7fff00, #0f8011);
+  background-image: -moz-linear-gradient(top, #7fff00, #0f8011);
+  background-image: -ms-linear-gradient(top, #7fff00, #0f8011);
+  background-image: -o-linear-gradient(top, #7fff00, #0f8011);
+  background-image: linear-gradient(to bottom, #7fff00, #0f8011);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 16px;
+  box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #234017 1px;
+  background: #1d2221;
+  background-image: -webkit-linear-gradient(top, #1d2221, #4ad524);
+  background-image: -moz-linear-gradient(top, #1d2221, #4ad524);
+  background-image: -ms-linear-gradient(top, #1d2221, #4ad524);
+  background-image: -o-linear-gradient(top, #1d2221, #4ad524);
+  background-image: linear-gradient(to bottom, #1d2221, #4ad524);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .top-container h2 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+
+  .top-cloud {
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+    top: 10px;
+    right: 30px;
+  }
+
+  .bottom-cloud {
+    visibility: hidden;
+  }
+
+  .photo-skill-description {
+    font-size: 0.8rem;
+    clear: left;
+  }
+
+  .game-skill-description {
+    font-size: 0.8rem;
+    clear: right;
+  }
+
+  .intro {
+    font-size: 0.9rem;
+  }
+
+  .contact {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sourav</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="banner" id="sec">
+    <header>
+      <a href="#" class="logo">SC.</a>
+      <div id="toggle" onclick="toggle()"></div>
+    </header>
+    <div class="content">
+      <h2>Hello Friends,<br>I'm <span>Sourav Choudhury</span></h2>
+      <p>An aspiring future web designer and developer, who is
+      working hard to reach the final goals. Wanna know more about me??
+    Click the button down below and be amazed!</p>
+      <a class="btn" href="personal.html" target="_blank">
+        <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      About Me.</a>
+      </div>
+      <ul class="sci">
+        <li><a href="https://www.facebook.com/souravc309/" target="_blank"><img src="images/facebook.png" alt="facebook"></a></li>
+        <li><a href="https://www.instagram.com/sourav_10__/" target="_blank"><img src="images/insta.png" alt="instagram"></a></li>
+        <li><a href="https://twitter.com/kingFutbOl107" target="_blank"><img src="images/twitter.png" alt="twitter"></a></li>
+      </ul>
+  </section>
+
+  <div id="navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="personal.html" target="_blank">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="mailto:saurabc9879@email.com" target="_blank">Contact</a></li>
+    </ul>
+  </div>
+
+  <script type="text/javascript">
+    function toggle() {
+      var sec = document.getElementById('sec');
+      var nav = document.getElementById('navigation');
+      sec.classList.toggle('active');
+      nav.classList.toggle('active');
+    }
+  </script>
+</body>
+
+</html>
