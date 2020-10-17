@@ -12,29 +12,38 @@
         <ul class="navbar-nav navbar-right">
           <!-- 6 -->
           <li id="home"><a href="/">HOME</a></li>
-          <li id="contact"><a href="/logout">LOGOUT</a></li>
         </ul>
       </div>
     </nav>
   
   <body>
     <div class="container">
+<div class="container mt-5">
+  <h1>Register Admin</h1>
 
-<div class="container">
-  <div class="jumbotron centered">
-    <i class="fas fa-key fa-6x"></i>
-    <h1 class="display-3">Notice this week!</h1>
-    <p class="secret-text">What would happen this week, share them anonymously!</p>
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="card">
+        <div class="card-body">
 
-    <form action="/submit" method="POST">
+          <!-- Makes POST request to /register route -->
+          <form action="/adminRegister" method="POST">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" name="username">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" name="password">
+            </div>
+            <button type="submit" class="btn btn-dark ">Register</button>
+          </form>
 
-      <div class="form-group">
-        <input type="text" class="form-control text-center" name="secret" placeholder="What's your secret?">
+        </div>
       </div>
-      <button type="submit" class="btn btn-dark">Submit</button>
-    </form>
-
+    </div>
 
   </div>
 </div>
+
 <%- include('partials/footer') %>
