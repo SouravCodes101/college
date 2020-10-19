@@ -26,7 +26,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb://localhost:27017/noticeDB", {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://admin-sourav:Test123@cluster0.vfwvz.mongodb.net/noticeDB", {useNewUrlParser: true, useUnifiedTopology: true});
 mongoose.set("useFindAndModify", false);
 mongoose.set("useCreateIndex", true);
 
